@@ -73,18 +73,10 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1>RhymeThis!</h1>
+                <h1>Time to Play!</h1>
                 <hr>
-                <p>Enter your guess</p>
-                <%= form_tag({ controller: "games", action: "check_guess" }, method: "post" ) do %>
-                  <%= label_tag :guess %>
-                  <%= text_field_tag :guess %>
-
-                  <%= hidden_field_tag("game_id", value = @game.id) %>
-
-                  <%= submit_tag("Guess") %>
-                <% end %>
-                <%= link_to "Enter the Rhyme", new_game_path %>
+                <p>Rules: To start, player 1 will enter two words that rhyme and make sense together. Then you will give a clue to other players which will help them guess the solution. Players will compete to see who can think of the original ryhming words first. Have fun!</p>
+                <%= link_to "Start Game!", new_player_path %>
             </div>
         </div>
     </header>
