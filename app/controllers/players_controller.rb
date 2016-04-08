@@ -9,7 +9,6 @@ class PlayersController < ApplicationController
     else
       Player.create(name: params[:name], role: "player", score: 0)
     end
-    redirect_to root_path
-
+    redirect_to g
   end
 end
