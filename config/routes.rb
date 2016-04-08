@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
 
-  root to: 'game#index'
-
+  root to: 'home#index'
+  post 'games/check_guess'
   # get 'game/show'
 
   resources :players, only: [:new, :create]
-  resources :game, only: [:show, :create, :new]
+  resources :games, only: [:show, :create, :new]
 end
