@@ -1,0 +1,13 @@
+<div class="order-hero-unit signup-hero-unit">
+  <div class="container text-center hero-container">
+    <%= form_for @game do |f| %>
+      <%= f.label :your_rhyme %>
+      <%= f.text_field :current_solution %>
+
+      <%= f.label :your_clue %>
+      <%= f.text_field :your_clue %>
+
+      <%= f.submit %>
+    <% end %>
+  </div>
+</div>
