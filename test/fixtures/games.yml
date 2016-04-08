@@ -1,0 +1,10 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  current_solution: MyString
+
+two:
+  name: MyString
+  current_solution: MyString

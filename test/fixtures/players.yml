@@ -1,0 +1,14 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  references: 
+  name: MyString
+  role: MyString
+  score: 1
+
+two:
+  references: 
+  name: MyString
+  role: MyString
+  score: 1
